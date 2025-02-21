@@ -1,5 +1,8 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+## Deployed Website
+I already deployed it using [vercel](https://vercel.com/), to visit click this link [Web Portofolio](https://web-portofolio-octoscript.vercel.app/)
+
 ## Getting Started
 
 First, run the development server:
