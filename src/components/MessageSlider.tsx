@@ -43,7 +43,7 @@ const MessageSlider: React.FC = () => {
           messages.map((msg) => (
             <div
               key={msg.id}
-              className="py-8 px-4 max-h-fit md:h-[230px] bg-white border rounded-md flex flex-col items-center justify-center"
+              className="py-8 px-4 h-full md:h-[230px] bg-white border rounded-md flex flex-col items-center justify-center"
             >
               <div className="items-center justify-center flex mt-8">
                 <p className="text-lg font-semibold">
