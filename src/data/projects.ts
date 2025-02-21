@@ -11,7 +11,7 @@ export const projects = [
     description: "Membangun frontend serta mengimplementasikan logika di sisi frontend dari backend aplikasi yang terintegrasi dengan Firebase menggunakan TypeScript.",
     devtoolsList: ["Ionic-React", "TypeScript", "Firebase", "Javascript"],
     image: "/images/bkmedited.png",
-    backgroundColor: "bg-green-500",
+    backgroundColor: "bg-teal-500",
   },
   {
     title: "Website Pemesanan Menu Rumah Makan",
@@ -25,6 +25,6 @@ export const projects = [
     description: " Membangun frontend, backend, dan database aplikasi menggunakan .NET MAUI Blazor Hybrid, memungkinkan aplikasi untuk dibangun sebagai aplikasi mobile dan desktop",
     devtoolsList: [".NET MAUI Blazor", "ASP.NET Web API", "SQL Server", "SSMS"],
     image: "/images/gfsfrontedited.png",
-    backgroundColor: "bg-green-500",
+    backgroundColor: "bg-teal-500",
   },
 ];
