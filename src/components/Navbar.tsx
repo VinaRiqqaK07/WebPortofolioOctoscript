@@ -37,7 +37,7 @@ export const Navbar = () => {
       } `}
     >
       <div className="container mx-auto flex justify-between items-center">
-        <h1 className="text-xl font-semibold">For Octoscript</h1>
+        <h1 className="text-xl font-semibold text-gray-900">For Octoscript</h1>
         <div className="md:hidden">
           <button
             onClick={() => {
@@ -46,11 +46,11 @@ export const Navbar = () => {
             }}
             className="p-2"
           >
-            {menuOpen ? <X size={24} /> : <Menu size={24} />}
+            {menuOpen ? <X size={24} /> : <Menu size={24} color="black" />}
           </button>
         </div>
         <ul
-          className={`md:flex md:space-x-6 absolute md:static top-16 left-0 w-full md:w-auto bg-white md:bg-transparent shadow-md md:shadow-none transition-all duration-300 ease-in-out ${
+          className={`md:flex md:space-x-6 absolute md:static top-16 left-0 w-full md:w-auto bg-white  md:bg-transparent shadow-md md:shadow-none transition-all duration-300 ease-in-out ${
             menuOpen ? "block" : "hidden"
           } md:flex-row md:items-center md:p-0 p-4`}
         >
@@ -70,7 +70,7 @@ export const Navbar = () => {
                 duration={500}
                 spy={true}
                 offset={-70}
-                className="cursor-pointer block p-4 rounded-md hover:bg-blue-200 hover:text-blue-600 transition-all"
+                className="cursor-pointer block p-4 rounded-md text-gray-900 hover:bg-blue-200 hover:text-blue-600 transition-all"
                 onClick={() => setMenuOpen(false)}
               >
                 {item.name}
