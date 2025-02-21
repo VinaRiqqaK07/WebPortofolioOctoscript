@@ -16,18 +16,18 @@ export default function Home() {
         >
           <div className="flex flex-col justify-end gap-4 px-6 py-6 mt-20 md:mt-10 h-[400px] md:h-fit">
             <p>Hi, my name is</p>
-            <h1 className="font-bold text-[70px] lg:text-[90px]">Vina Riqqa K</h1>
+            <h1 className="font-bold text-[70px] lg:text-[90px]">
+              Vina Riqqa K
+            </h1>
             <p>Junior Front End Developer</p>
-            <div>
-              <button className="rounded-lg border border-black py-2 px-4">
-                GET IN TOUCH
-              </button>
-            </div>
           </div>
           <div className="flex justify-center justify-items-start w-[60vh] md:w-[40vh] lg:w-[100vh]">
-            <img src="/images/3d-laptop.png" alt="3D Laptop Image" className="object-cover rounded-md mb-4" />
+            <img
+              src="/images/3d-laptop.png"
+              alt="3D Laptop Image"
+              className="object-cover rounded-md mb-4"
+            />
           </div>
-
         </section>
 
         {/* ABOUT ME */}
@@ -58,7 +58,7 @@ export default function Home() {
           </h2>
           <ProjectsSection />
         </section>
-        
+
         {/* CONTACT SECTION */}
         <section
           id="message"
@@ -68,7 +68,6 @@ export default function Home() {
             SEND YOUR MESSAGE
           </h2>
           <ContactForm />
-          
         </section>
         <MessageSlider />
       </main>
