@@ -17,7 +17,7 @@ export default function Home() {
           <div className="flex flex-col justify-end gap-4 px-6 py-6 mt-20 md:mt-10 h-[400px] md:h-fit">
             <p>Hi, my name is</p>
             <h1 className="font-bold text-[70px] lg:text-[90px]">
-              Vina Riqqa K
+              Vina Riqqa
             </h1>
             <p>Junior Front End Developer</p>
           </div>
