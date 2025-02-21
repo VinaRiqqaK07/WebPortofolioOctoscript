@@ -40,7 +40,7 @@ const Footer = () => {
     <footer className="bg-gray-900 p-8 md:p-40 text-white">
       <div className="container mx-auto flex flex-col justify-center items-center ">
         <Image
-          className="dark:invert"
+          className="invert brightness-200"
           src="/next.svg"
           alt="Next.js logo"
           width={windowsType == "sm" || windowsType == "xs" ? 90 : 180}

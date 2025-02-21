@@ -46,7 +46,7 @@ export const ContactForm = () => {
 
   return (
     <div className="bg-white">
-      <h2 className="text-md mb-4">Something you wanna say</h2>
+      <h2 className="text-md mb-4 text-gray-700">Something you wanna say</h2>
       <form onSubmit={handleSubmit} className="space-y-5">
         <div className="flex flex-col gap-1">
           <label className="block text-sm font-medium text-gray-700">

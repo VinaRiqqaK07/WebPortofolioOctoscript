@@ -31,9 +31,9 @@ export default function Home() {
         </section>
 
         {/* ABOUT ME */}
-        <section id="about" className="flex flex-col px-4 py-20 md:px-48 gap-5">
+        <section id="about" className="flex flex-col bg-white px-4 py-20 md:px-48 gap-5">
           <h2 className="text-4xl font-semibold text-blue-400">ABOUT</h2>
-          <p className="text-wrap text-xl">
+          <p className="text-wrap text-gray-900 text-xl">
             My name is Vina Riqqa Khairiah. I am an Informatics student with
             experience in web and mobile development, working with various
             frameworks and technologies such as React, Next.js, Ionic-React,
@@ -43,7 +43,7 @@ export default function Home() {
             expanding my expertise in databases and backend systems through my
             internship at PT Vale Indonesia.
           </p>
-          <p className="text-wrap font-semibold text-xl">
+          <p className="text-wrap text-gray-900 font-semibold text-xl">
             Through these experience, I have had the opportunity to work with a
             diverse range of platforms and tools. I consider myself proficient
             in the following:
@@ -52,7 +52,7 @@ export default function Home() {
         </section>
 
         {/* PROJECTS SHOWCASE */}
-        <section id="project" className="py-10 md:py-20">
+        <section id="project" className="py-10 bg-white md:py-20">
           <h2 className="px-12 mb-8 text-4xl text-blue-400 font-semibold md:text-wrap">
             PROJECTS SHOWCASE
           </h2>
@@ -62,7 +62,7 @@ export default function Home() {
         {/* CONTACT SECTION */}
         <section
           id="message"
-          className="px-4 py-20 md:px-48 flex flex-col gap-2"
+          className="px-4 py-20 md:px-48 flex bg-white flex-col gap-2"
         >
           <h2 className="text-4xl font-semibold text-blue-400 md:text-wrap">
             SEND YOUR MESSAGE

@@ -46,7 +46,7 @@ const MessageSlider: React.FC = () => {
               className="py-8 px-4 h-full md:h-[230px] bg-white border rounded-md flex flex-col items-center justify-center"
             >
               <div className="items-center justify-center flex mt-8">
-                <p className="text-lg font-semibold">
+                <p className="text-lg text-gray-900 font-semibold">
                   "
                   {msg.message.length > 100
                     ? msg.message.slice(0, 100) + "..."
@@ -55,7 +55,7 @@ const MessageSlider: React.FC = () => {
                 </p>
               </div>
               <div className="flex flex-col items-end">
-                <h3 className="text-md font-medium mt-4">{msg.name}</h3>
+                <h3 className="text-md text-gray-900 font-medium mt-4">{msg.name}</h3>
                 <p className="text-sm text-gray-600">{msg.email}</p>
               </div>
             </div>
